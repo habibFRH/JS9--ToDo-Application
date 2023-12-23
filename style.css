@@ -43,3 +43,35 @@ button:hover{
     background: #333;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+li{
+    padding: 10px;
+    background-color: #eee;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child{
+    margin-bottom: 0px;
+}
+
+.deleteTodobtn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.deleteTodobtn:hover{
+    background-color: #d32f2f;
+}
